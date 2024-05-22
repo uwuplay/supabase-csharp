@@ -1,0 +1,8 @@
+create table Livros
+(
+chave_book  INTERGER (6) PRIMARY KEY NOT NULL UNIQUE,
+author VARCHAR (33) not null,
+genero VARCHAR (33) not null,
+name VARCHAR (33) not null,
+Book_Quantity INTEGER (4)
+);
